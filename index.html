@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Youtube downloader</title><!-- Bootstrap -->
+	<title>SchoolTube Viewer</title><!-- Bootstrap -->
 	<link href=
 	"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css"
 	rel="stylesheet">
@@ -24,7 +24,7 @@
 <body>
 	<div class="container">
 		<div class="logo">
-			Youtube downloader <span class="fa-stack fa-3x" style=
+			SchoolTube Viewer <span class="fa-stack fa-3x" style=
 			"font-family: FontAwesome; font-size: 150%;"><span class="fa-stack-1x"
 			style="color:red">&#xf16a;</span><span class="fa-stack-2x" style=
 			"font-size: 75%">&#xf019;</span></span>
@@ -39,20 +39,20 @@
 		</div>
 		<div class="alert alert-warning alert-dismissible fade show">
 			<button class="close" data-dismiss="alert" type="button">&times;</button>
-			<strong>Warning:</strong> You CANT download Songs
+			<strong>Warning:</strong> You cannot download songs due to DMCA.
 		</div>
 		<div class="alert alert-danger alert-dismissible fade show" id="error01"
 		style="display: none;">
 			<button class="close" onclick=
 			"$('#error01').css({'opacity':'0'});setTimeout(function(){$('#error01').css({'display':'none'});$('#error01').css({'opacity':'1'});}, 150)"
-			type="button">&times;</button> <strong>Error:</strong> Invaild Url.
+			type="button">&times;</button> <strong>Error:</strong> Invaild URL.
 		</div>
 		<div class="alert alert-danger alert-dismissible fade show" id="error02"
 		style="display: none;">
 			<button class="close" onclick=
 			"$('#error02').css({'opacity':'0'});setTimeout(function(){$('#error02').css({'display':'none'});$('#error02').css({'opacity':'1'});}, 150)"
 			type="button">&times;</button> <strong>Error:</strong> Can't connect to
-			server or video does not exist.
+			server or the video does not exist.
 		</div>
 		<div class="card" id="video_details" style="display: none;">
 			<div class="card-header" id="video_title"></div>
